@@ -1,0 +1,156 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+
+
+.formulario {
+  width: 50%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-bemvindo {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  font-family: 'Merriweather';
+}
+
+.texto-bemvindo p {
+  font-family: 'Merriweather';
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.form form input {
+  height: 25px;
+  width: 100%;
+}
+
+.form form label {
+  margin: 5px 0 0 0;
+  font-family: 'Lato';
+}
+
+.extras { 
+  width: 50%;
+  font-family: 'Lato';
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember-psw { 
+  text-decoration: none;
+}
+
+.connetion {
+  width: 50%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-login { 
+  background-color: #04C35C;
+  color: #fff;width: 100%;
+  width: 100%;
+}
+
+.btn-login-Google { 
+  background-color: #1A202C;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+} 
+
+.btn { 
+  height: 2.8rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.fa-brands {
+  font-size: 18px;
+}
+
+.sign-up {
+  font-family: 'Lato';
+  font-size: 12px ;
+}
+
+/* left side */
+
+.svgs {
+  width: 50%;
+  height: 100vh;
+  background-color: #F7FAFC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-profile{
+  width: 50%;
+  height: auto;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pics-profiles-1{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.pics-profiles-2{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0 0 0;
+}
+
+.square{
+  border: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-solid {
+  font-size: 50px;
+}
