@@ -12,8 +12,6 @@
   width: 100%;
 }
 
-
-
 .formulario {
   width: 50%;
   height: 100vh;
@@ -53,6 +51,7 @@ form {
 .form form input {
   height: 25px;
   width: 100%;
+  padding: 5px;
 }
 
 .form form label {
@@ -111,12 +110,13 @@ form {
   font-size: 12px ;
 }
 
-/* left side */
 
+
+/* left side */
 .svgs {
   width: 50%;
   height: 100vh;
-  background-color: #F7FAFC;
+  background-color: #a9c7f5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,7 +144,9 @@ form {
 }
 
 .square{
-  border: 50%;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -153,4 +155,5 @@ form {
 
 .fa-solid {
   font-size: 50px;
+  color: #04C35C;
 }
