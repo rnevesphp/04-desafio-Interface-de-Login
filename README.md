@@ -1,6 +1,7 @@
 # 04-desafio-Interface-de-Login
 
-<img width="1356" alt="Captura de Pantalla 2022-08-12 a las 8 28 54" src="https://user-images.githubusercontent.com/51343870/184297123-2aac1a02-be77-49ff-bc14-81a834fa5f80.png">
+![image](https://user-images.githubusercontent.com/51343870/184557351-c59f7345-022b-4592-a5b5-47ebaf30e519.png)
+
 
 
 ### Sobre Este Projeto/Desafio
