@@ -5,11 +5,52 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../styles/singUp.css">
    <title>Registre-se</title>
 </head>
 
 <body>
 
+   <div class="return">
+      <a href="./login.html">
+         <i class="fa-solid fa-arrow-left"></i>
+      </a>
+   </div>
+   <div class="container-principal">
+
+
+      <div class="title-principal">
+         <h2 class="title">Registre-se <br> e comece a usar nossos serviços</h2>
+      </div>
+
+      <div class="signUp-form">
+         <form class="form-signUp">
+
+            <label for="signUpMail">E-mail</label>
+            <input type="text" name="signUpMail" id="signUpMail">
+
+            <label for="signUpPswd">Senha</label>
+            <input type="password" name="signUpPswd" id="signUpPswd">
+
+            <label for="ConfirmSignUpPswd">Confirmar Senha</label>
+            <input type="password" name="ConfirmSignUpPswd" id="ConfirmSignUpPswd">
+         </form>
+
+         <div class="confirm-register">
+            <button type="submit" onclick="validateReg(); " class="btn register">Registrar</button>
+         </div>
+
+         <div class="save-register">
+            <input type="radio" name="saveRegister" id="saveRegister">
+            <label for="saveRegister">
+               Lembrar minhas credenciais!
+            </label>
+         </div>
+      </div>
+
+   </div>
 </body>
+
+<script src="../funcs/signUp.js"></script>
 
 </html>

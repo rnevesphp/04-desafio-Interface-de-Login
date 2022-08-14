@@ -1,0 +1,93 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   outline: none;
+}
+
+.return { 
+   width: 100%;
+   height: calc(2rem - 100vh);
+   font-size: 24px;
+   padding: 2rem 0 0 2rem ;
+}
+
+.container-principal {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.title {
+   font-family: 'Merriweather' ; 
+   font-size: 22px;
+}
+
+.signUp-form {
+   width: 50%;
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   background-color: #a9c7f5;
+   align-items: center;
+   justify-content: center;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 50%;
+   width: 75%;
+   font-size: 14px;
+   font-family: 'Lato';
+}
+
+.form-signUp input {
+   border-radius: 2px;
+   outline: none;
+   border: 0.1px solid rgb(49, 28, 28);
+   padding: 5px;
+   width: 50%;
+   height: 25px;
+}
+
+.form-signUp {
+   gap: 5px;
+}
+
+.confirm-register {
+   margin: 1rem 0 0 0;
+   width: 75%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.register {
+   background-color: #04C35C;
+   color: #fff;
+   width: 30%;
+   transition: 0.3s all ;
+}
+
+.btn { 
+   height: 2.8rem;
+   border-radius: 5px;
+   border: none;
+   transition: 0.3s all ;
+}
+
+.btn:hover { 
+   cursor: pointer;
+   background-color: #2de985;
+   transition: 0.3s all ;
+   color: #030303;
+}
